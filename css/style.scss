@@ -1,11 +1,15 @@
 .header {
     background: #222222;
 }
+a {
+    text-decoration: none;
+}
 .container {
     width: 1140px;
     margin: 0 auto;
     &__header {}
     &__sales {}
+    &__shop {}
 }
 .nav {}
 .menu {
@@ -63,7 +67,6 @@
         font-size: 48px;
         line-height: 58px;
     }
-	
 }
 .sales {
     padding: 65px 0 95px 0;
@@ -72,7 +75,6 @@
     display: flex;
     justify-content: space-between;
 }
-
 .sales-row .sales-item {
     width: 360px;
 }
@@ -127,4 +129,84 @@
         color: #F16D7F;
         text-transform: uppercase;
     }
+}
+.shop {
+	&__heading {
+        font-family: 'Lato';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 30px;
+        line-height: 36px;
+        color: #222222;
+        text-align: center;
+        margin-bottom: 6px;
+    }
+	&__text {
+        font-family: 'Lato';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 17px;
+        color: #9F9F9F;
+        text-align: center;
+        margin-bottom: 48px;
+    }
+    &__link {
+        display: block;
+        justify-content: center;
+        font-family: 'Lato';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 19px;
+        color: #F26376;
+        border: 1px solid #FF6A6A;
+        padding: 13.5px 0;
+        margin: 0 auto;
+        margin-top: 18px;
+        width: 210px;
+        text-align: center;
+    }
+}
+
+.shop-item {
+    width: 360px;
+    background: #F8F8F8;
+    padding-bottom: 20px;
+    margin-bottom: 30px;
+    &__link { }
+	&__img { }
+	&__heading {
+        font-family: 'Lato';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 13px;
+        line-height: 16px;
+        color: #000000;
+        margin: 25px 18px 12px;
+    }
+	&__text {
+        font-family: 'Lato';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 14px;
+        line-height: 17px;
+        color: #5D5D5D;
+        margin: 0 28px 16px 18px;
+    }
+	&__price {
+        font-family: 'Lato';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 19px; 
+        color: #F16D7F;
+        margin-left: 18px;
+    }
+}
+.shop-wrap {
+    display: flex;
+    justify-content: space-between;
+    align-content: space-between;
+    flex-wrap: wrap;
 }
