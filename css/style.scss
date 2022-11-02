@@ -1,0 +1,130 @@
+.header {
+    background: #222222;
+}
+.container {
+    width: 1140px;
+    margin: 0 auto;
+    &__header {}
+    &__sales {}
+}
+.nav {}
+.menu {
+    display: flex;
+    justify-content: space-between;
+    padding: 18px 0;
+	&__item {
+        display: inline;
+        align-self: center;
+        }
+    &__item-logo { }
+    &__item-search {
+        flex-grow: 1;
+        margin-left: 41px;
+    }
+    &__item-menu { }
+    &__item-profile {
+        margin-left: 31px;
+    }
+    &__item-cart {
+        margin-left: 31px;    
+    }
+	&__list { }
+	&__img { }
+	&__img-logo { }
+	&__img-search { }
+	&__img-menu { }
+	&__img-profile { }
+	&__img-cart { }
+}
+.brand {
+    background-color: #F1E4E6;
+    display: flex;
+    justify-content: center;
+}
+.brand-text {
+    margin-top: 290px;
+    &__img { }
+	&__text {
+        margin-left: 64px;
+        font-family: 'Lato';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 38px;
+        color: #222222;
+        &_color {
+            color: #F16D7F;
+        }
+    }
+	&__heading {
+        font-family: 'Lato';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 48px;
+        line-height: 58px;
+    }
+	
+}
+.sales {
+    padding: 65px 0 95px 0;
+}
+.sales-row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.sales-row .sales-item {
+    width: 360px;
+}
+.sales-item {
+    &__women {
+        background-image: url(../files/sales-women.jpg);
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
+    }
+    &__men {
+        background-image: url(../files/sales_men.jpg);
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
+    }
+    &__kid {
+        background-image: url(../files/sales_kid.jpg);
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
+    }
+    &__acces {
+        margin-top: 30px;
+        background-image: url(../files/sales_accesories.jpg);
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
+        & .sales-item__text {
+            padding: 65px 103px;
+        }
+    }
+    &__text {
+        display: block;
+        padding: 105px 103px;
+        font-family: 'Lato';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 19px;
+        text-align: center;
+        color: #FFFFFF;
+        text-transform: uppercase;
+    }
+	&__heading {
+        font-family: 'Lato';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 29px;
+        text-align: center;
+        color: #F16D7F;
+        text-transform: uppercase;
+    }
+}
