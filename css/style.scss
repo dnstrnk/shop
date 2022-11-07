@@ -41,9 +41,13 @@ a {
 	&__img-cart { }
 }
 .brand {
+    margin: 0 auto;
     background-color: #F1E4E6;
-    display: flex;
-    justify-content: center;
+    &__wrap {
+        max-width: 1600px;
+        display: flex;
+        justify-content: center;
+    }
 }
 .brand-text {
     margin-top: 290px;

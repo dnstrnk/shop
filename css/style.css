@@ -30,7 +30,11 @@ a {
   margin-left: 31px;
 }
 .brand {
+  margin: 0 auto;
   background-color: #F1E4E6;
+}
+.brand__wrap {
+  max-width: 1600px;
   display: flex;
   justify-content: center;
 }
